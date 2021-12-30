@@ -1,0 +1,50 @@
+.counterWrap {
+    background: #282c34;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.countNum {
+    background: #61dafb;
+    color: #282c34;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 20px 0;
+}
+
+.countButtons {
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    padding: 5px;
+    width: 182px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redNum {
+    background: #61dafb;
+    color: #c51006;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    padding: 20px 0;
+}
+button{
+    background: #61dafb;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+    font-size: 1.275rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:disabled{
+    background: #8e9595;
+    color: #555555;
+}
